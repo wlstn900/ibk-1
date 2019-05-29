@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var1, var2 := testReturn()
-	fmt.Println(var1)
-	fmt.Println(var2)
+	a, _ := testReturn()
+	fmt.Println(a)
 }
 
 func testReturn() (string, string) {

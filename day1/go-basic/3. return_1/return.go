@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(testReturn("2"))
+	fmt.Println(testReturn())
 }
 
-func testReturn(a string) (string, string) {
-	return "3", "2"
+func testReturn() (string, string, int) {
+	return "3", "1", 1
 }

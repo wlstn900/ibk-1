@@ -7,5 +7,6 @@ func main() {
 	fmt.Println(a)
 
 	b := "this is b"
+	b = "this is c"
 	fmt.Println(b)
 }
